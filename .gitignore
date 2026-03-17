@@ -1,0 +1,19 @@
+node_modules/
+
+.gemini/
+gha-creds-*.json
+.github
+.env
+
+# Terraform local and state files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+crash.log
+.terraform.lock.hcl
+
+dist/
+logs/
+coverage/
